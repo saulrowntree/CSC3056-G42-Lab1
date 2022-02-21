@@ -58,6 +58,14 @@ public class UserTests {
 		
 		if(passed)
 			System.out.println("ALL TC's passed.");
+		
+		// using asserts
+
+		assert testUser.getUsername() == test_username;
+		assert testUser.getFirst_name() == test_first_name;
+		assert testUser.getLast_name() == test_last_name;
+		assert testUser.getPassword() == test_password;
+		assert testUser.getMobile_number() == test_mobile_number;
 	}
 
 }
